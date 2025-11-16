@@ -33,7 +33,7 @@ results_df = pd.DataFrame({
     'prediction': all_preds
 })
 
-results_df.to_csv('predictions.csv', index=False)
+results_df.to_csv('result.csv', index=False)
 
 print("=" * 50)
 print("PREDICTIONS GENERATED")
